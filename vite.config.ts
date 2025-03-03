@@ -26,5 +26,7 @@ export default defineConfig({
         }
       }
     }
-  }
+  },
+  // Add support for serving static assets from the public directory
+  publicDir: 'public',
 });
